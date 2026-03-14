@@ -169,6 +169,7 @@ GROQ_API_KEY = "gsk_..."
 # Demo
 
 !https://github.com/gajulaakanksha/ai_conversational_wealth_coach/blob/main/images/Screenshot_1.png
+!https://github.com/gajulaakanksha/ai_conversational_wealth_coach/blob/main/images/Screenshot_2.png
 
 ---
 
