@@ -74,8 +74,7 @@ User message
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/mentor-wealth-coach.git
-cd mentor-wealth-coach
+git clone https://github.com/gajulaakanksha/mentor-wealth-coach.git
 ```
 
 ### 2. Install dependencies
@@ -116,7 +115,6 @@ mentor-wealth-coach/
 ├── .env.example            # Template for environment variables
 ├── .gitignore              # Git ignore rules
 ├── questions.md            # Sample questions to test the app
-├── PRD.md                  # Product Requirement Document
 ├── DESIGN.md               # Architecture & design decisions
 ├── IMPLEMENTATION_PLAN.md  # Roadmap & future phases
 └── README.md               # This file
