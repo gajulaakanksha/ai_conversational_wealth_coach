@@ -1,8 +1,40 @@
-# 💬 Mentor — AI Conversational Wealth Coach
+# WealthMentor AI — Conversational Wealth Coach
 
-An AI-powered financial mentor for first-time investors. Ask questions about investing in plain language and get clear, jargon-free answers — like talking to a knowledgeable friend.
+WealthMentor AI is a conversational AI system designed to help first-time investors learn about investing through natural language conversations instead of complex dashboards.
 
-Built with **Streamlit** + **Llama 3.1 8B** (via Groq).
+The application acts as a friendly AI mentor that explains financial concepts, analyzes user surplus income, and visualizes long-term investment growth.
+
+---
+
+## Problem Statement
+
+For many beginner investors, traditional financial dashboards introduce cognitive overload rather than clarity.
+
+Challenges faced by new investors:
+
+• Too many investment options
+• Complex financial terminology
+• Confusing graphs and dashboards
+• Lack of personalized guidance
+
+Instead of dashboards, beginners prefer asking a mentor simple questions.
+
+This project solves that problem using a conversational AI mentor.
+
+---
+
+## Solution
+
+WealthMentor AI replaces traditional dashboards with a chat-based financial mentor.
+
+Users can:
+
+• Ask investment questions
+• Understand financial concepts
+• Analyze their monthly surplus
+• Visualize how investments grow over time
+
+The system combines LLMs, financial knowledge retrieval, and data visualization to provide a beginner-friendly investment learning experience.
 
 ---
 
@@ -14,6 +46,64 @@ Built with **Streamlit** + **Llama 3.1 8B** (via Groq).
 - Compounding calculator with interactive chart (conservative / moderate / aggressive scenarios)
 - Guardrails — stays educational, never recommends specific products
 - Loads API key from `.env` automatically
+
+---
+## Key Features
+AI Conversational Mentor
+
+Users can ask questions like:
+```
+What is a mutual fund?
+Why should I invest through SIP?
+What is diversification?
+```
+The AI mentor provides simple explanations tailored for beginners.
+
+The conversational engine is powered by **Llama 3 via Groq for fast inference and natural responses.
+
+
+Surplus Income Analyzer
+
+Users input:
+
+• Monthly income
+• Monthly expenses
+
+The system calculates available investment surplus:
+```
+Surplus = Income − Expenses
+```
+This helps users understand how much they can safely invest each month.
+
+
+Investment Growth Simulator
+
+Users can visualize long-term investment growth using compound interest.
+
+Inputs:
+
+• Monthly investment
+• Investment duration
+• Expected return rate
+
+Output:
+
+📈 Dynamic investment growth chart.
+
+
+Financial Knowledge Base (RAG)
+
+The AI mentor uses a retrieval-augmented generation (RAG) approach.
+
+Before generating responses, the system retrieves relevant financial knowledge from a curated knowledge base containing concepts such as:
+
+• Mutual Funds
+• Fixed Deposits
+• SIP (Systematic Investment Plans)
+• Diversification
+• Risk vs Return
+
+This improves accuracy and reliability.
 
 ---
 
@@ -134,6 +224,33 @@ GROQ_API_KEY = "gsk_..."
 
 ---
 
+# Demo
+
+
+
+---
+
+Example User Flow
+
+Step 1 — User enters financial details
+```
+Monthly Income: ₹50,000
+Monthly Expenses: ₹40,000
+```
+Step 2 — System calculates
+```
+Monthly Surplus = ₹10,000
+```
+Step 3 — User asks the AI mentor
+```
+Why should I invest in mutual funds?
+```
+Step 4 — AI explains investment concepts in simple language.
+
+Step 5 — User visualizes investment growth using the simulator.
+
+---
+
 ## Sample Questions
 
 See [`questions.md`](questions.md) for a full list. Quick examples:
@@ -153,6 +270,19 @@ See [`questions.md`](questions.md) for a full list. Quick examples:
 | LLM | Llama 3.1 8B Instant (Groq) |
 | Charts | Plotly |
 | Config | python-dotenv |
+
+---
+
+Future Improvements
+
+Potential enhancements include:
+
+• Goal-based financial planning
+• Risk profile analysis
+• Portfolio tracking dashboard
+• Advanced financial RAG knowledge base
+• Multi-language financial education
+• AI-generated investment learning paths
 
 ---
 
