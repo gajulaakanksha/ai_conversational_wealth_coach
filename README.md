@@ -170,6 +170,7 @@ GROQ_API_KEY = "gsk_..."
 
 !https://github.com/gajulaakanksha/ai_conversational_wealth_coach/blob/main/images/Screenshot_1.png
 !https://github.com/gajulaakanksha/ai_conversational_wealth_coach/blob/main/images/Screenshot_2.png
+!https://github.com/gajulaakanksha/ai_conversational_wealth_coach/blob/main/images/Screenshot_3.png
 
 ---
 
@@ -216,7 +217,7 @@ See [`questions.md`](questions.md) for a full list. Quick examples:
 
 ---
 
-Future Improvements
+## Future Improvements
 
 Potential enhancements include:
 
