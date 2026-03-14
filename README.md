@@ -13,8 +13,11 @@ For many beginner investors, traditional financial dashboards introduce cognitiv
 Challenges faced by new investors:
 
 • Too many investment options
+
 • Complex financial terminology
+
 • Confusing graphs and dashboards
+
 • Lack of personalized guidance
 
 Instead of dashboards, beginners prefer asking a mentor simple questions.
@@ -30,8 +33,11 @@ WealthMentor AI replaces traditional dashboards with a chat-based financial ment
 Users can:
 
 • Ask investment questions
+
 • Understand financial concepts
+
 • Analyze their monthly surplus
+
 • Visualize how investments grow over time
 
 The system combines LLMs, financial knowledge retrieval, and data visualization to provide a beginner-friendly investment learning experience.
@@ -160,7 +166,7 @@ mentor-wealth-coach/
 2. Go to [share.streamlit.io](https://share.streamlit.io) → New app → select your repo
 3. Add your secret: `Settings → Secrets`
 ```toml
-GROQ_API_KEY = "gsk_..."
+GROQ_API_KEY=your_groq_api_key_here
 ```
 4. Deploy — your app will be live at `https://<your-app>.streamlit.app`
 
@@ -222,10 +228,15 @@ See [`questions.md`](questions.md) for a full list. Quick examples:
 Potential enhancements include:
 
 • Goal-based financial planning
+
 • Risk profile analysis
+
 • Portfolio tracking dashboard
+
 • Advanced financial RAG knowledge base
+
 • Multi-language financial education
+
 • AI-generated investment learning paths
 
 ---
